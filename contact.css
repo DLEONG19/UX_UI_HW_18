@@ -1,0 +1,134 @@
+/*font-family: 'Tajawal', sans-serif;*/
+/*font-family: 'Pinyon Script', cursive;*/
+
+/*font-family: 'Playfair Display', serif;*/
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #FBF4F4;
+  
+}
+header{ 
+    background-color: #FBF4F4;
+}
+
+.topnav {
+    overflow: hidden;
+    display: inline;
+    padding-right: 30px;
+}
+
+.topnav b{
+    float: left;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Playfair Display', serif;  
+    text-decoration: none;
+    font-size: 28px;
+    color: #CF8D99;
+    margin-left: 10px;
+}
+
+.topnav a{
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.topnav-right a:hover {
+    color: #CF8D99;
+    border-bottom: 1px solid #CF8D99;
+  }
+
+.Work, .About{ 
+    color: #21383D;
+    text-decoration: none;
+  }
+
+.topnav-right {
+    margin-right: 100px;
+    float: right;
+    vertical-align: top;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+  }
+
+.Contact {
+    color: #CF8D99;
+    font-weight: bold;
+  }
+
+input[type=text], select, textarea {
+  color: #EACDC6;
+  background-color: #EACDC6;
+  font-family: 'Tajawal', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ffffff; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=send] {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #CF8D99;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FBF4F4;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 60px;
+  cursor:pointer
+}
+
+input[type=send]:hover {
+  background-color: #f8b1b4;
+}
+
+input[type=send] {
+  width: 100px;
+}
+
+.container {
+  margin: auto;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 700px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #21383D;
+  border-radius: 5px;
+  background-color: #white;
+  padding: 20px;
+}
+
+h1{
+  color: black;
+  font-size: 55px;
+  font-family: 'Playfair Display', serif;  
+}
+
+.footerSection {
+    background:#CF8D99;
+    height: 90px;
+    width: 100%;
+    min-height: 5%;
+    display: flex;
+    position: absolute;
+}
+
+

@@ -5,6 +5,7 @@
 
 body {
     margin: 0px;
+    overflow-x: hidden
 }
 header{ 
     background-color: #FBF4F4;
@@ -33,14 +34,22 @@ header{
     list-style: none;
     font-family: 'Tajawal', sans-serif;
     text-transform: uppercase;
-    text-decoration: none;
     font-size: 20px;
-    color: #21383D;
 }
 
 .topnav-right a:hover {
     color: #CF8D99;
     border-bottom: 1px solid #CF8D99;
+  }
+
+  .work {
+    color: #CF8D99;
+    font-weight: bold;
+  }
+
+  .about, .contact{ 
+    color: #21383D;
+    text-decoration: none;
   }
 
 .topnav-right {
@@ -56,11 +65,7 @@ header{
 .intro{
     display: flex;
     align-items: center;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
-
 
 .card {
     text-align: center;
@@ -94,7 +99,7 @@ h1{
     margin-top: 80px;
     margin-bottom: 60px;
     text-align: center;
-}
+  }
 
 body image {
     width: 500px;
@@ -112,9 +117,9 @@ body image {
 }
 
 .gallery {
-    margin: 5px;
-    float: center;
-    width: 900px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .gallery img{
@@ -123,7 +128,7 @@ body image {
     border: 1px solid #21383D;
 }
 
-footer {
+.footerSection {
     background:#CF8D99;
     height: 90px;
     width: 100%;
