@@ -37,17 +37,23 @@ header{
     font-family: 'Tajawal', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .topnav-right a:hover {
     color: #CF8D99;
-    border-bottom: 1px solid #CF8D99;
   }
 
-.Work, .About{ 
+  .contact {
+    color: #CF8D99;
+    font-weight: bold;
+  }
+
+  .about, .work{ 
     color: #21383D;
     text-decoration: none;
   }
+
 
 .topnav-right {
     margin-right: 100px;
@@ -57,12 +63,9 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 1px;
+    text-decoration: none;
   }
 
-.Contact {
-    color: #CF8D99;
-    font-weight: bold;
-  }
 
 input[type=text], select, textarea {
   color: #EACDC6;
@@ -112,7 +115,7 @@ input[type=send] {
   border-width: 1px;
   border-color: #21383D;
   border-radius: 5px;
-  background-color: #white;
+  background-color: #ffffff;
   padding: 20px;
 }
 
