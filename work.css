@@ -37,9 +37,19 @@ header{
     font-size: 20px;
 }
 
+.topnav-right {
+    margin-right: 100px;
+    float: right;
+    vertical-align: top;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1px;
+    text-decoration: none;
+  }
+
 .topnav-right a:hover {
     color: #CF8D99;
-    border-bottom: 1px solid #CF8D99;
   }
 
   .work {
@@ -52,15 +62,6 @@ header{
     text-decoration: none;
   }
 
-.topnav-right {
-    margin-right: 100px;
-    float: right;
-    vertical-align: top;
-    width: 20%;
-    display: flex;
-    justify-content: space-around;
-    padding: 1px;
-  }
 
 .intro{
     display: flex;
